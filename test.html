@@ -38,12 +38,21 @@ canvas {
 	<p>
 	Attribute Measurements : This is a 30 px horizontal line: <hr width="30px"/>
 	</p>
+	<frameset cols="100, 25%, *"></frameset>
+	<frameset rows="100, 25%, *"></frameset>
 	<p align="center">This is a text <br />
         <hr width="10%" align="right" /> This is also a text.
     <p align="center">
    	This is a text.
    	<hr width="50%" align="left" />
 	</p>
+	<frame noresize="noresize">
+	<frameset cols="25%,50%,25%">
+   		<frame src="a.htm" />
+   		<frame src="b.htm" />
+   		<frame src="c.htm" />
+   		<noframes>Frames not supported!</noframes>
+	</frameset>
 	<p><big>big text</big></p>
 	<p><small>small text</small></p>
 	<p><strong>strong text</strong></p>
